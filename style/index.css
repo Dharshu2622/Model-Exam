@@ -1,0 +1,117 @@
+/*General reset*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", serif;
+}
+/* Body and fonts */
+body {
+    font-family: "Playwrite GB S", serif;
+    line-height: 1.6;
+    background-image: url("./images/images.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+/* Header with gradient */
+header {
+    background: linear-gradient(to right, rgba(193, 22, 145, 0), rgb(238, 0, 255));
+    color: white;
+    padding:10px;
+    text-align: center;
+    text-shadow:2px 2px blueviolet;
+}
+span {
+    color: #6a11cb;
+    float: left;
+    text-shadow: 2px 2px 4px black;
+    font-size:50px;
+}
+h2{
+    text-align:center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin-left:60px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main layout with two columns */
+main {
+    display: flex;
+    margin: 20px;
+}
+
+/* Content and sidebar styling */
+.content {
+    flex: 3;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color:rgb(215, 86, 159);
+}
+
+.sidebar h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Floated image */
+.float-image {
+    margin: 10px;
+    width: 150px;
+    float: right;
+}
+
+/* Footer with gradient */
+footer {
+    background: linear-gradient(to right, rgba(193, 22, 145, 0), rgb(238, 0, 255));
+    color: white;
+    text-align: center;
+    padding: 25px;
+    height: 100px;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+}
